@@ -2,8 +2,6 @@ import React from 'react';
 
 import { moneyFormat } from './StringConverter';
 
-import "./style.css";
-
 function Products ( {total, money, product, basket, setBasket} ) {
 
     const basketItem = basket.find( item => item.id === product.id );
